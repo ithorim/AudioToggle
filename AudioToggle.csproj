@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>false</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <DebugType>none</DebugType>
+    <Version>1.0.0</Version>
+    <ApplicationIcon>audiotoggle.ico</ApplicationIcon>
+    <Authors>ithorim</Authors>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="NAudio.Wasapi" Version="2.3.0" />
+    <EmbeddedResource Include="THIRD-PARTY-NOTICES.txt" />
+    <EmbeddedResource Include="audiotoggle.ico" />
+  </ItemGroup>
+</Project>
