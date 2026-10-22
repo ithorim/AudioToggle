@@ -28,4 +28,4 @@ Close the running app using **Tray → Exit** first. The script publishes the si
 
 The executable uses the separately installed .NET 10 Desktop Runtime. Setting defaults uses the undocumented Windows `IPolicyConfig` COM interface.
 
-Uses [NAudio.Wasapi 2.3.0](https://www.nuget.org/packages/NAudio.Wasapi/2.3.0) and its NAudio.Core dependency under the MIT license; see `THIRD-PARTY-NOTICES.txt`. The source archive includes the consolidated checks in `AudioToggle.Tests`; see that folder's README for running them.
+Uses [NAudio.Wasapi 2.3.0](https://www.nuget.org/packages/NAudio.Wasapi/2.3.0) and its NAudio.Core dependency under the MIT license; see `THIRD-PARTY-NOTICES.txt`.
